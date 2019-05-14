@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="728009b3-ab62-4949-b8b0-9e4b0d270f92">
+  <name>КонфигурацияDavydoff</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация davydoff</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="38fa8cad-58cb-4386-8e00-168d79c8bd82"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4d725dc2-428c-408a-8c61-09508a47fe74"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9418f3d7-1f70-4235-a782-1ac2a44a5492"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="49ab43fc-0534-4a1d-bb68-bbf122d0a5ff"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f81ed478-b05f-4961-8359-9ab680bf922b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e8c108db-7a7f-400f-b7b2-dcf7627e273e"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Davydoff</vendor>
+  <version>2.3.5</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Location</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Contacts</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Calendars</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>PushNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>LocalNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Print</requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Davydoff</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>Davydoff</value>
+  </vendorInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
+  <languages uuid="3fa620e7-280e-4a4b-9587-209afc459534">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <sessionParameters>SessionParameter.ТекущаяОС</sessionParameters>
+  <commonModules>CommonModule.ПроцедурыОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.PushКлиент</commonModules>
+  <commonModules>CommonModule.PushВызовСервера</commonModules>
+  <commonModules>CommonModule.PushСервер</commonModules>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.НазначениеДопРеквизитов</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Напоминание</catalogs>
+  <catalogs>Catalog.СправочникУкравто</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <enums>Enum.ТипХранимыхДанных</enums>
+  <enums>Enum.МобильныеОС</enums>
+  <enums>Enum.ПримитивныеТипы</enums>
+  <dataProcessors>DataProcessor.СделатьПодпись</dataProcessors>
+  <dataProcessors>DataProcessor.НачалоРедактирования</dataProcessors>
+  <dataProcessors>DataProcessor.РасписаниеПригороднойЭлектрички</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСGoogleSheets</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеМультимедиа</informationRegisters>
+  <informationRegisters>InformationRegister.ПолучателиУведомлений</informationRegisters>
+</mdclass:Configuration>

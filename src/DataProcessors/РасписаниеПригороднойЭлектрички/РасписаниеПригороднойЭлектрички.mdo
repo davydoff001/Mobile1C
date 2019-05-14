@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="037d001c-a765-444c-9587-35f913fa6c43">
+  <producedTypes>
+    <objectType typeId="e43460ec-5f10-47a1-bfc3-053fab489dd3" valueTypeId="9713618a-883e-4380-8ec0-df5639a3a35f"/>
+    <managerType typeId="ac22b313-8d43-401a-9216-d4890a6b6b71" valueTypeId="974e950d-0dec-423d-9ca8-eecc9be0d268"/>
+  </producedTypes>
+  <name>РасписаниеПригороднойЭлектрички</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание пригородной электрички</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасписаниеПригороднойЭлектрички.Form.Форма</defaultForm>
+  <attributes uuid="db2123cb-7ed9-4980-8cca-cd3af6e062ec">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ff2f531b-8a4b-425f-948a-289606c4b628">
+    <name>Страница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страница</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d5e0cefb-f04d-4fb1-aeca-c7fbd1881fe7">
+    <name>ПоказыватьНеОтправленые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать не отправленые</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="2e7561de-798d-4b97-bd87-dcdb5cfbe382">
+    <producedTypes>
+      <objectType typeId="846e3de3-ad0e-4314-86fe-e9ed51fa1872" valueTypeId="f3e2bf7f-02fe-4682-97be-10acc75b0adc"/>
+      <rowType typeId="0a385a9d-04a2-4adc-8f18-cfa1a42e4eb2" valueTypeId="af02cde9-9bc8-4d50-a424-58a57cfb76aa"/>
+    </producedTypes>
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8a975be5-4d89-480e-bfad-3cddce20d325">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="47099817-a056-4676-ba10-fda125e1d315">
+      <name>Дни</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дни</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0b751962-18ac-47a3-8ad4-b57179f9df5f">
+      <name>Маршрут</name>
+      <synonym>
+        <key>ru</key>
+        <value>Маршрут</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a73d952b-b473-4325-8b7a-522289628317">
+      <name>Отправление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f13bb41e-4e2d-4d96-af0e-d7669e1367a3">
+      <name>Прибытие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прибытие</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="30d6a08b-0728-4715-a95d-81a331ee15b9">
+      <name>ВПути</name>
+      <synonym>
+        <key>ru</key>
+        <value>В пути</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9ef61e76-3164-4cb4-873f-fe0efd151833">
+      <name>ДеньНедели</name>
+      <synonym>
+        <key>ru</key>
+        <value>День недели</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="23f24016-f818-4697-9a57-625b9a8d6a0e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

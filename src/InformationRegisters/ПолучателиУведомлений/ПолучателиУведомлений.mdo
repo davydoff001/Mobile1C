@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab038667-8496-4012-934c-1017c108e114">
+  <producedTypes>
+    <selectionType typeId="0c5b0ca0-2e29-496a-bdce-69db32525003" valueTypeId="a2c98846-1be1-412e-920a-051571d73125"/>
+    <listType typeId="8e5789a5-7c1c-4db4-933d-a57a6cf572a7" valueTypeId="2892aea2-7fad-4e3a-b595-2ce055fd3366"/>
+    <managerType typeId="fc570822-28d2-4c78-961e-198dd64dc959" valueTypeId="1c214d6b-f7a1-4b6a-9165-ed33771b70a6"/>
+    <recordSetType typeId="13331b9a-64ef-426c-83ce-3285402f7d24" valueTypeId="ed694b50-7f20-46fb-8039-83b20da464a9"/>
+    <recordKeyType typeId="14be94d5-9db4-412f-b94b-45486eac9adc" valueTypeId="290def45-b595-438d-86fd-1912e962ca89"/>
+    <recordType typeId="c383f900-8a63-458e-b0a3-fca02628c49f" valueTypeId="615c374c-ad49-451a-b7ab-439661b0a4d2"/>
+    <recordManagerType typeId="2022485e-689b-42e1-970d-b59927628b79" valueTypeId="4999b2b0-5af8-4639-a7e4-2a216c4fb26c"/>
+  </producedTypes>
+  <name>ПолучателиУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели уведомлений</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d7285e8b-6dae-4b5b-bfa0-1ae87ec3cec1">
+    <name>ИдентификаторПодписчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор подписчика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="56e4b0dd-0987-4331-ae35-b52bd20e70e0">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

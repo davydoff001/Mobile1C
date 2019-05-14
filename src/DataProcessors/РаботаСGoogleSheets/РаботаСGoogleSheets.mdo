@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0709f43-40ab-48ee-bdb8-a9b8ca40b1cc">
+  <producedTypes>
+    <objectType typeId="2a121f6f-698f-4c49-bf26-c43dd73407d3" valueTypeId="698c0c3e-b8c8-4991-ae53-1c606b34583f"/>
+    <managerType typeId="2cc0354e-4591-446f-bf26-bec5deafe4f3" valueTypeId="a815f14c-d918-414a-ac62-685f6aed982a"/>
+  </producedTypes>
+  <name>РаботаСGoogleSheets</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с google sheets</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСGoogleSheets.Form.Форма</defaultForm>
+  <tabularSections uuid="ad09eef9-2d27-46f3-835c-089fe3fdefaf">
+    <producedTypes>
+      <objectType typeId="9a44d7b6-f8b4-4d78-97b5-64a77cc8b61e" valueTypeId="1bf2156a-e1a7-4bf4-8a0c-5f45e8414b54"/>
+      <rowType typeId="712d35fd-d0a7-4fa4-82a4-457589ce29cf" valueTypeId="7a3d17df-160f-4bb7-a9aa-a69f77066577"/>
+    </producedTypes>
+    <name>тчЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тч затраты</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="0d3ca84a-c7d9-45e6-b304-1b84def1868d">
+      <name>ИмяЗатрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя затрат</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9dd9db19-a5bd-45b5-b4ee-6527b5a65584">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cca147d9-d272-4f45-b90c-c226dcbab7fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

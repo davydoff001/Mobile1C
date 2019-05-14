@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4118b644-2ca4-49fb-b2bc-194d5df83e52">
+  <producedTypes>
+    <objectType typeId="b87733d2-257b-41df-bc60-e9444f0737a4" valueTypeId="b122d5b1-b4e1-414d-9dfc-96608f84c39d"/>
+    <refType typeId="c4ad9807-9ff9-4413-bde4-82c5f8a63fc5" valueTypeId="cfcd442e-262b-4d07-80c6-d456854b7243"/>
+    <selectionType typeId="d9865d90-32b1-40f3-afd7-2c19a8b58230" valueTypeId="67d0f2b8-8e69-4b8b-9198-91df0d6fe8a7"/>
+    <listType typeId="2cad5d16-f3ef-4bb4-8bed-d8b7acca1a30" valueTypeId="72b0034d-e150-4a66-a687-1268d321ab93"/>
+    <managerType typeId="c9c6602e-f68f-4a4f-8960-7e5347f1debc" valueTypeId="d41f1cee-12e0-4056-89ed-c43abd712029"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <comment>Товары</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Товары.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5165cd53-5a31-475c-9487-7571428283c5">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74927522-d4fa-4d1e-9a4c-1189978d2ed7">
+    <name>UIDкартинкиТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>UIDкартинки товара</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="708ed782-41a0-4e16-9189-d9c995794851">
+    <producedTypes>
+      <objectType typeId="0ea1ac6b-21c9-4348-897b-af6d9c857647" valueTypeId="544d20fd-bc8f-4aeb-a7c1-efaf46615fab"/>
+      <rowType typeId="2c9e45be-15f8-40e2-b058-9b9e235f1435" valueTypeId="8b1e2aa8-3732-41bc-9f49-5379d85113e7"/>
+    </producedTypes>
+    <name>ДопРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп реквизиты</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="9797706b-12cd-4783-9055-3a7116fd00e4">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3635abdf-4a0e-42c3-a4e0-63129ae72599">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6f0a453b-6c56-43d3-94d9-e1c5314dd736">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

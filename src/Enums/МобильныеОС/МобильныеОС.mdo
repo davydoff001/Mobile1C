@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5ec12b-3c99-4b04-b4bd-a5c5487ec64d">
+  <producedTypes>
+    <refType typeId="151b0231-2912-4241-be7a-a1fc738be14e" valueTypeId="68f90891-9614-4deb-ad7e-a4f7fdb8dc7a"/>
+    <listType typeId="49f3aa9c-6ff1-473e-8651-8b155207e8c2" valueTypeId="315e0e9c-faab-4c7f-8554-0e49004e8093"/>
+    <managerType typeId="d18d6cf0-e799-4bb5-bce3-309fe5a71095" valueTypeId="bac5b205-c623-4fca-b451-daf9831a4bcd"/>
+  </producedTypes>
+  <name>МобильныеОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные ОС</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2bda3b7b-b9a3-47f8-9caf-e686199543a1">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5d051f84-218d-40f5-8a7a-1eabb7858f6c">
+    <name>Android</name>
+    <synonym>
+      <key>ru</key>
+      <value>Android</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="af70804e-88bd-47be-b7f1-8c7cffb6c1bb">
+    <name>iOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>I OS</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="25e9b0d1-0f9c-47ef-920b-2a7d30e88a63">
+    <name>PC</name>
+    <synonym>
+      <key>ru</key>
+      <value>PC</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96dc9ba6-7bb9-4f83-b69f-12384f378653">
+  <producedTypes>
+    <objectType typeId="93ee75b0-d5af-4a15-86fb-d7b9072f0280" valueTypeId="2d851ed8-bd83-4d8b-8ae1-de0ea2672e33"/>
+    <refType typeId="f7442948-2740-4457-9a1d-550532976ddc" valueTypeId="12aa8eac-8f97-46a4-a725-b5dcea3ff0bd"/>
+    <selectionType typeId="20bcd803-a65a-41d3-abb3-b0131c211924" valueTypeId="5cfa2bb0-69f0-48e4-8845-0a831cceedec"/>
+    <listType typeId="e0bd8fde-af56-42d0-8b7e-45a209485714" valueTypeId="6071789b-57c8-4b5a-a621-100067d6751f"/>
+    <managerType typeId="072d809c-f98a-4131-a14d-d280136c2c2c" valueTypeId="61428350-9010-46ee-a39f-f1cda04424ff"/>
+  </producedTypes>
+  <name>Напоминание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминание</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Напоминание.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Напоминание.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Напоминание.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Напоминание.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b6426c9e-76ce-480a-9cf1-d2cebbf088b0">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1633ef46-f1e9-467c-ba7b-a1c6f9b99851">
+    <name>ДатаУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата уведомления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="155e94da-8754-4c6d-8394-69074eedaa8a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34884ad1-18b2-46ac-934d-ffb6088cd32f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

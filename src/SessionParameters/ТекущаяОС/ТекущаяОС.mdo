@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85ffa9ce-502e-4d8d-8228-be15597fc9b9">
+  <name>ТекущаяОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущая ОС</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.МобильныеОС</types>
+  </type>
+</mdclass:SessionParameter>

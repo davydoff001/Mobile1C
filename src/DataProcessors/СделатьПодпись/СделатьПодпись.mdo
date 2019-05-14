@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f6d38e4-fc27-4dc3-97ad-0920eb3fc9b7">
+  <producedTypes>
+    <objectType typeId="71bc9877-1892-474f-9d8f-c8c3cc5b1516" valueTypeId="911e0fda-f5ed-4653-b681-b7d0e221eb93"/>
+    <managerType typeId="08defbf7-fdf0-4603-aed8-f8a54989b62a" valueTypeId="9daeab4c-92c2-40ee-bb72-9b4edeea98ed"/>
+  </producedTypes>
+  <name>СделатьПодпись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сделать подпись</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СделатьПодпись.Form.Форма</defaultForm>
+  <forms uuid="00e75cf2-1cd4-4dda-ae62-cd9b8c4e156e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2af1ca6e-8d60-48b8-bf8e-1acac8c03fbb">
+    <name>ШаблонДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон документа</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

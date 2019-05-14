@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="203c13d9-275d-47fb-bd3b-fab1cd08da06">
+  <name>PushСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Push сервер</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>

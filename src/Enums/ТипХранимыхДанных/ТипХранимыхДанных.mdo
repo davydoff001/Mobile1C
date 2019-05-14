@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f09142f-1352-453c-90fd-da3f852b1738">
+  <producedTypes>
+    <refType typeId="0a5d9d5b-8633-4587-8b93-768bbdcfa1fb" valueTypeId="45bff56b-f5de-41a2-81d7-313095992a8a"/>
+    <listType typeId="4c3e3952-9e76-4eb0-a3e4-ff1c40a46a22" valueTypeId="967eb17e-3afb-4226-9dcf-35f88a05c6b0"/>
+    <managerType typeId="600370b6-8b74-4501-b217-bb14cfb60a9f" valueTypeId="5b6d70b8-be96-4680-b9df-acc4285822ba"/>
+  </producedTypes>
+  <name>ТипХранимыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип хранимых данных</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1e75eff5-38e1-4b8b-b3f8-cc5b54f6e098">
+    <name>Видео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видео</value>
+    </synonym>
+    <comment>video/*</comment>
+  </enumValues>
+  <enumValues uuid="d195bfb9-ec8f-4ed7-b6a0-3570648db186">
+    <name>Аудио</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудио</value>
+    </synonym>
+    <comment>audio/*</comment>
+  </enumValues>
+  <enumValues uuid="c7f56488-0851-499c-a714-4628d235d458">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <comment>image/*</comment>
+  </enumValues>
+</mdclass:Enum>

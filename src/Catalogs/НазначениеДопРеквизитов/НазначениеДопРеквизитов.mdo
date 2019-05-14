@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6445cf46-ed93-4064-a48b-e0e3785dc7d2">
+  <producedTypes>
+    <objectType typeId="f5f455b2-7c90-4240-a181-e6ef27c96d94" valueTypeId="c6831d48-e957-4371-b06c-2179119e45a4"/>
+    <refType typeId="bbb4a1af-8880-4ad9-943d-d018c49094bb" valueTypeId="ba5a1f63-257e-4076-98d2-727645ffc759"/>
+    <selectionType typeId="22a4da00-9541-441b-85d9-aa893d455c2a" valueTypeId="d71e3e00-7ccf-42e5-95cd-4edf23c7790a"/>
+    <listType typeId="edc510db-7590-4cd9-afc7-912c10cc4754" valueTypeId="1c6f0ec1-c362-45a6-bf96-aaaa2dc7b3ea"/>
+    <managerType typeId="140ea056-4c78-45e1-a53b-18423217ba60" valueTypeId="b9604f64-38e0-4e93-8612-4dff33b4b29e"/>
+  </producedTypes>
+  <name>НазначениеДопРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение доп реквизитов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НазначениеДопРеквизитов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НазначениеДопРеквизитов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НазначениеДопРеквизитов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2dd60a27-5ea9-4b1e-abc1-7891f765d45c">
+    <name>СправочникНазначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник назначение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>90</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2cd40fd4-625f-4875-b0ca-122385b45015">
+    <producedTypes>
+      <objectType typeId="b7eba1fe-6a1f-422d-bbb4-af4abaac9bb2" valueTypeId="3d685c4b-ea3a-47e4-a72d-35117dc08a1d"/>
+      <rowType typeId="14c94a7e-1638-4d42-9319-461fc9907c62" valueTypeId="cb3f30a5-6337-4384-b7e3-3089bc843866"/>
+    </producedTypes>
+    <name>ДопРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп реквизиты</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="0863825d-0d19-430b-a44f-61720a347f80">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="62c4baa2-0f76-4ba2-bf68-f3fcce6a3051">
+      <name>ТипДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип данных</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ПримитивныеТипы</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="63a3299d-5f41-492b-8a05-4735cee46ec0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
