@@ -60,6 +60,20 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="43e81dc6-90ef-4fea-8a36-839b48770257">
+    <name>ОффЛайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офф лайн</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="2e7561de-798d-4b97-bd87-dcdb5cfbe382">
     <producedTypes>
       <objectType typeId="846e3de3-ad0e-4314-86fe-e9ed51fa1872" valueTypeId="f3e2bf7f-02fe-4682-97be-10acc75b0adc"/>

@@ -71,4 +71,5 @@
   <dataProcessors>DataProcessor.РаботаСGoogleSheets</dataProcessors>
   <informationRegisters>InformationRegister.ДанныеМультимедиа</informationRegisters>
   <informationRegisters>InformationRegister.ПолучателиУведомлений</informationRegisters>
+  <informationRegisters>InformationRegister.ОффЛайнРасписание</informationRegisters>
 </mdclass:Configuration>
