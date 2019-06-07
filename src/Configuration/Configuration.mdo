@@ -69,6 +69,7 @@
   <dataProcessors>DataProcessor.НачалоРедактирования</dataProcessors>
   <dataProcessors>DataProcessor.РасписаниеПригороднойЭлектрички</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСGoogleSheets</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкаКонтактов</dataProcessors>
   <informationRegisters>InformationRegister.ДанныеМультимедиа</informationRegisters>
   <informationRegisters>InformationRegister.ПолучателиУведомлений</informationRegisters>
   <informationRegisters>InformationRegister.ОффЛайнРасписание</informationRegisters>
