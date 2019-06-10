@@ -300,7 +300,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>Группа3</name>
+      <name>ГруппаКонтактнаяИнформация</name>
       <id>23</id>
       <items xsi:type="form:FormGroup">
         <name>Группа4</name>
@@ -787,7 +787,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>Группа8</name>
+        <name>ГруппаПочта</name>
         <id>44</id>
         <items xsi:type="form:FormField">
           <name>Почта</name>
@@ -880,8 +880,16 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа почта</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа почта</value>
+        </toolTip>
         <extendedTooltip>
-          <name>Группа8РасширеннаяПодсказка</name>
+          <name>ГруппаПочтаРасширеннаяПодсказка</name>
           <id>45</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -904,6 +912,41 @@
           <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
+      <items xsi:type="form:Button">
+        <name>ФормаСоздатьКонтакт</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФормаСоздатьКонтактРасширеннаяПодсказка</name>
+          <id>58</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.СоздатьКонтакт</commandName>
+        <representation>PictureAndText</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.CreateListItem</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -913,8 +956,13 @@
         <key>ru</key>
         <value>Контактная информация</value>
       </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа контактная информация</value>
+      </toolTip>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
-        <name>Группа3РасширеннаяПодсказка</name>
+        <name>ГруппаКонтактнаяИнформацияРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1099,6 +1147,27 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СоздатьКонтакт</name>
+    <title>
+      <key>ru</key>
+      <value>Создать контакт</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать контакт</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СоздатьКонтакт</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
